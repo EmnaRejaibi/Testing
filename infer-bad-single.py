@@ -1,18 +1,6 @@
-import os
-import sys
-import sox
-import json
-import h5py
-import time
 import torch
-import shutil
-import GPUtil
 import argparse
-import numpy as np
-import pandas as pd
 import audiofile as af
-
-from tqdm import tqdm
 from scipy.special import softmax
 from python_speech_features import logfbank
 
